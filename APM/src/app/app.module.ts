@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './products/product-list.component';
 import { ConverToSpacesPipe } from './shared/convert-to-spaces.pipe';
+import { starComponent } from './shared/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductListComponent,
-    ConverToSpacesPipe
+    ConverToSpacesPipe,
+    starComponent
   ],
   imports: [
     BrowserModule,
